@@ -10,6 +10,6 @@
 
 [![demo](https://asciinema.org/a/H3RH56TS9iFOjUDeFbkIwuAaf.svg)](https://asciinema.org/a/H3RH56TS9iFOjUDeFbkIwuAaf?autoplay=1)
 
-### Brain Cacl
+### Brain Calc
 
 [![demo](https://asciinema.org/a/L91pWiNCZ4wqWIVde5l3ZbtzK.svg)](https://asciinema.org/a/L91pWiNCZ4wqWIVde5l3ZbtzK?autoplay=1)
