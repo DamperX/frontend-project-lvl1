@@ -18,3 +18,7 @@
 ### Brain Progression
 
 [![demo](https://asciinema.org/a/KpeIPULKdni82H2JletT3X7z4.svg)](https://asciinema.org/a/KpeIPULKdni82H2JletT3X7z4?autoplay=1)
+
+### Brain Prime
+
+[![demo](https://asciinema.org/a/UwDdZS1V4unmmzsFAFMrbuVXu.svg)](https://asciinema.org/a/UwDdZS1V4unmmzsFAFMrbuVXu?autoplay=1)
