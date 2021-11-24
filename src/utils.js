@@ -11,3 +11,13 @@ export const getDividers = (number) => {
 
   return dividers;
 };
+export const getProgression = (start, step, length = 5) => {
+  const progression = [];
+
+  for (let i = 0; i < length; i += 1) {
+    const currentStep = step * i;
+    progression.push(start + currentStep);
+  }
+
+  return progression;
+};
