@@ -4,28 +4,26 @@ import startProgram from '../index.js';
 const signVariants = ['+', '-', '*'];
 
 function startCalc() {
-  const getCalcQuestAndResult = () => {
-    const first = getRandomArbitrary(1, 100);
-    const second = getRandomArbitrary(1, 100);
-    const sign = signVariants[getRandomArbitrary(0, signVariants.length)];
-
-    const question = `${first} ${sign} ${second}`;
-    let result;
-
+  const getCalcResult = (firstOperator, secondOperator, sign = '+') => {
     switch (sign) {
       case '+':
-        result = first + second;
-        break;
+        return firstOperator + secondOperator;
       case '-':
-        result = first - second;
-        break;
+        return firstOperator - secondOperator;
       case '*':
-        result = first * second;
-        break;
+        return firstOperator * secondOperator;
       default:
-        result = first + second;
-        break;
+        return firstOperator + secondOperator;
     }
+  };
+
+  const getCalcQuestAndResult = () => {
+    const firstNumber = getRandomArbitrary(1, 100);
+    const secondNumber = getRandomArbitrary(1, 100);
+    const sign = signVariants[getRandomArbitrary(0, signVariants.length)];
+
+    const question = `${firstNumber} ${sign} ${secondNumber}`;
+    const result = getCalcResult(firstNumber, secondNumber, sign);
 
     return [question, result.toString()];
   };

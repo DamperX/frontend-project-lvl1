@@ -1,7 +1,9 @@
 import readlineSync from 'readline-sync';
 import start from './games/cli.js';
 
-function startProgram(description, getQuestAndResolt, attemptsCount = 3) {
+const defaultAttemptsCount = 3;
+
+function startProgram(description, getQuestAndResolt, attemptsCount = defaultAttemptsCount) {
   let attemptNumber = 0;
   const name = start();
 
